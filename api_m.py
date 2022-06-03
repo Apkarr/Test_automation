@@ -1,7 +1,7 @@
 import requests
 
 class MoyKlass:
-    def __int__(self):
+    def __init__(self):
         self.base_url = "https://api.moyklass.com/v1/company/managers"
 
     def get_api_manager(self, id, name, phone, email):
