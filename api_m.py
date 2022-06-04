@@ -12,7 +12,7 @@ class MoyKlass:
             'email': email
         }
 
-        res = requests.get(self.base_url + 'api/manager/', headers=headers)
+        res = requests.get(self.base_url + '/api/manager', headers=headers)
 
         status = res.status_code
         result = ""
